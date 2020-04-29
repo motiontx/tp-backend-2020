@@ -1,5 +1,77 @@
 # TP Backend 2020
 
+## :bookmark_tabs: Flashcard APP :bookmark_tabs:
+
+### :small_orange_diamond: Idea principal
+
+Se desea desarrollar una aplicación que tenga como objetivo facilitar el estudio, basándose para ello en la metodología de [flashcards](https://es.wikipedia.org/wiki/Flash_cards).
+
+### :small_orange_diamond: Propósito
+
+Tomando en cuenta dicho método de estudio y analizando las diferentes alternativas que se encuentran ya disponibles, se llegó a la conclusión de que estas aplicaciones ya existentes carecen de algunas características importantes y/o no otorgan una interfaz pulida, cómodo y útil para el usuario.
+
+Se decidió entonces desarrollar una aplicación propia que incluya todas estas características importantes de la metodología y poner especial énfasis en la interfaz y experiencia de usuario.
+
+Además, la relativa sencillez del proyecto permitirá una vez desarrolladas las características principales, poder llevarlo a producción de manera rápida, propiciando así, una utilidad real y clara de la idea en cuestión.
+
+### :small_orange_diamond: Breve descripción del proyecto
+
+Una vez registrado en la web, el usuario tiene la posibilidad de crear **temáticas de estudio** (ej: 1° Parcial teórico de TTADS, Final de SO, etc).
+
+Creada una temática, procede a crear **flashcards** para la misma:
+
+Escribe el lado A de la tarjeta, y su correspondiente respuesta en el lado B. Se espera que la tarjeta sea personalizable, incluyendo poder elegir el estilo de la misma, color, poder añadir imágenes, links, dibujar sobre ella, etc. ***
+
+Además de este tipo de tarjeta "simple", el usuario también podrá añadir otros tipos de tarjetas como:
+
+  * *Tarjetas de verdadero o falso*
+  * Tarjetas de multiple choice ***
+  * Tarjetas de ordenar los pasos ***
+  * Tarjetas de unir con flechas ***
+
+Una vez finalizada la creación de todas ellas, y llegado el momento de "estudio", el usuario seleccionará la temática a repasar. La web le irá mostrando el lado A de las tarjetas de dicha temática, y este deberá pensar la respuesta a la pregunta, corroborando su saber con el lado B.
+
+Si considera que su respuesta ha sido correcta tildará la opción de **LO SABÍA**, o **ESTABA EQUIVOCADO** en el caso contrario. Si las tarjetas son de los otros tipos listados, la web decidirá ella misma si acertó o no.
+
+Finalmente el usuario podrá ver **estadísticas** de cada temática, cuales respuestas acierta más y cuales menos, su porcentaje de acierto a lo largo del tiempo y otras estadísticas de interés.
+
+Se espera que dichas estadísticas sirvan como input del sistema para modificar las tarjetas que va mostrando de forma sucesiva al usuario y así lograr un aprendizaje más eficiente. ***
+
+Requisitos a considerar:
+
+  * Exportar flashcards a formato PDF para así poder imprimirlas o usarlas. ***
+  * Compartir Flashcards con otros usuarios: las temáticas tendrían el atributo **privado**, o **público**. En el caso de que sean públicas, otro usuario, mediante un link, podría clonar todas las flashcards a su cuenta y así poder modificarlas o agregar otras nuevas. ***
+  *Las temáticas podrían ser además, **colaborativas**, para otros usuarios, mediante un link de invitación. ***
+
+> *** Según la complejidad de algunas de estas características, las mismas no serían añadidas en una primera instancia.
+
+### :small_orange_diamond: Tecnologías
+
+El proyecto exige poner una gran atención al frontend de la aplicación. La idea es la de desarrollar una **SPA** y que la misma pueda ser exportada luego (mediante un Serice Worker o ya sea de forma empaquetada) a dispositivos móviles como así también a desktop (Serice Worker, o Electron) y poder otorgar funcionalidades offline.
+
+Se elige **VUE** para el framework frontend y **NodeJS** para su correspondiente backend.
+Se considera que la base de datos hecha en **MongoDB**, dado a su naturaleza noSQL es idónea para almacenar los datos de cada una de las flashcards y como así también de toda la aplicación.
+
+
+### :small_orange_diamond: ABMC
+
+Se listan algunos ABMC principales:
+
+  * *ABMC de Usuario*
+  * *ABMC de Temáticas*
+  * *ABMC de Flashcards*
+
+### :small_orange_diamond: Listados
+
+  * *Listar Temáticas*
+  * *Listar flashcards*
+
+### :small_orange_diamond: integrantes
+
+  * Vittorio Retrivi - 44727 >> [:octocat:](https://github.com/motiontx)
+
+---
+
 ## 1 - Enunciado
 
 ### 1.1 - Desarrollo
