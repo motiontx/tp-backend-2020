@@ -24,7 +24,7 @@ Escribe el lado A de la tarjeta, y su correspondiente respuesta en el lado B. Se
 
 Además de este tipo de tarjeta "simple", el usuario también podrá añadir otros tipos de tarjetas como:
 
-  * *Tarjetas de verdadero o falso*
+  * Tarjetas de verdadero o falso
   * Tarjetas de multiple choice ***
   * Tarjetas de ordenar los pasos ***
   * Tarjetas de unir con flechas ***
@@ -64,9 +64,19 @@ Se listan algunos ABMC principales:
 ### :small_orange_diamond: Listados
 
   * *Listar Temáticas*
-  * *Listar flashcards*
+  * *Listar Flashcards*
 
-### :small_orange_diamond: integrantes
+### :small_orange_diamond: Modelo de Dominio
+
+![Modelo_de_Dominio](https://i.imgur.com/ZgceeaE.png)
+
+
+### :small_orange_diamond: Repositorio
+
+* [motiontx/flashcards-app](https://github.com/motiontx/flashcards-app)
+
+
+### :small_orange_diamond: Integrantes
 
   * Vittorio Retrivi - 44727 >> [:octocat:](https://github.com/motiontx)
 
