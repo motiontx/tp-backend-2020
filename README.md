@@ -73,7 +73,7 @@ Se listan algunos ABMC principales:
 
 ### :small_orange_diamond: Repositorio
 
-* [motiontx/flashcards-app](https://github.com/motiontx/flashcards-app)
+* [motiontx/flashcards-app](https://github.com/motiontx/flashcard-app)
 
 
 ### :small_orange_diamond: Integrantes
